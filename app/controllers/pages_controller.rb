@@ -3,9 +3,12 @@ class PagesController < ApplicationController
   def home
   end
 
-  def about
+  def usluge
   end
 
-  def contact
+  def cjenovnik
+  end
+
+  def kontakt
   end
 end
