@@ -1,8 +1,19 @@
 <div class="container">
   <div class="hero">
-    <img src="/app/assets/images/detail1.png" width="197px" height="197px">
-    <h1 class="hero-header">GoodLook<br>Barber<br>Shop</h1>
-    <p class="hero-para">Više od obicnog frizera, nudimo vam klasicne usluge sa legendarnim stilom.</p>
-    <button class="button">Rezervacija</button>
+    <div class="video_home">
+      <div class="video_overlay">
+        <%= video_tag "video123.mp4", autoplay: :autoplay, loop: :loop, muted: :muted, class: "home_video" %>
+      </div>
+      <div class="background_overlay"></div>
+
+    </div>
+    <div class="text_section">
+      <div class="text_video">
+        <div width="197px" height="197px"><%= image_tag "Homepic1.png" %></div>
+        <h1 class="hero-header">GoodLook<br>Barber<br>Shop</h1>
+        <p class="hero-para">Više od obicnog frizera, nudimo vam klasicne usluge sa legendarnim stilom.</p>
+        <button class="button">Rezervacija</button>
+      </div>
+    </div>
   </div>
 </div>
