@@ -4,32 +4,67 @@
       <div class="video_overlay">
         <%= video_tag "video123.mp4", playsinline: :playsinline, autoplay: :autoplay, loop: :loop, muted: :muted, class: "home_video" %>
       </div>
-      <div class="background_overlay"></div>
     </div>
     <div class="text_section">
       <div class="text_video">
         <div width="100px" height="100px"><%= image_tag "Homepic1.png", :style => "width: 130px;margin-bottom: 20px;" %></div>
         <div class="line_home"> <%= image_tag "line.png", :style => "width: 160px;margin-bottom: 20px;" %> </div>
         <h1 class="hero-header">GoodLook<br>Barber<br>Shop</h1>
-        <p class="hero-para">Više od obicnog frizera, nudimo vam klasicne usluge sa legendarnim stilom.</p>
+        <p class="hero-para">Više od običnog frizera, nudimo vam klasične usluge sa legendarnim stilom.</p>
         <a class="button_main button_main_div" href="/kontakt">Rezervacija <i aria-hidden="true" class="fas fa-cut ml-3"></i></a>
       </div>
     </div>
   </div>
 
-  <div class="section_usluge">
+  <div class="section_usluge row align-items-center">
     <div class="section_usluge_text col-lg-5 col-sm-12">
       <div class="line_home"> <%= image_tag "line.png", :style => "width: 160px;margin-bottom: 20px;" %> </div>
         <h1 class="text_section_header">Najpopularnije<br>Usluge</h1>
         <hr>
-        <p class="text_section_para">Više od obicnog frizera, nudimo vam klasicne usluge sa legendarnim stilom.</p>
+        <p class="text_section_para">Više od običnog frizera, nudimo vam klasične usluge sa legendarnim stilom.</p>
         <a class="button_main button_main_div" href="/cjenovnik" style="margin-bottom: 100px;">Cjenovnik <i aria-hidden="true" class="fas fa-cut ml-3"></i></a>
     </div>
     <div class="section_usluge_cijene col-lg-7 col-sm-12">
-      <section class="jedna_cjena"></section>
+      <ul class="tilesWrap">
+        <li>
+          <h2>13KM</h2>
+          <h3>Šišanje</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+        </li>
+        <li>
+          <h2>15KM</h2>
+          <h3>Šišanje + Pranje Kose</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+        </li>
+        <li>
+          <h2>10KM</h2>
+          <h3>Uređivanje Brade</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+        </li>
+        <li>
+          <h2>23KM</h2>
+          <h3>Šišanje + Uređivanje Brade</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+        </li>
+      </ul>
     </div>
   </div>
 
+  <div class="banner_main">
+    <div class="banner"></div>
+    <div class="banner_text_over row">
+      <div class="col-lg-6">
+      <h1 class="text_header_banner">BarberShop<br>Sponzori i partneri</h1>
+      <p class="text_section_banner">Sve je u Stilu! I proizvodima.</p>
+      <hr style="color: red; background-color: red;">
+      </div>
+      <div class="col-lg-6 d-flex align-items-end justify-content-around">
+        <%= image_tag "DapperDan.png", :style => "width: 100px;" %>
+        <%= image_tag "DapperDan.png", :style => "width: 100px;" %>
+        <%= image_tag "DapperDan.png", :style => "width: 100px;" %>
+      </div>
+    </div>
+  </div>
 
 
 
