@@ -75,7 +75,7 @@ body{
   z-index:1;
 }
 .section_usluge{
-  margin-top:90px;
+  margin-top:70px;
   hr{
     border-top:1px solid #1a2659;
   }
@@ -148,6 +148,9 @@ body{
 @media screen and (max-width: 600px) {
   .section_usluge{
     text-align:center;
+  }
+  .home_video{
+    height:90vh;
   }
   .hero-header{
     font-size: 4rem;
