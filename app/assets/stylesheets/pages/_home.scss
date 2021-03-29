@@ -174,3 +174,16 @@ body{
   }
   }
 
+  .hero_footer{
+    background: image-url( "backgroundfooter.jpeg" );
+    height:100vh;
+    margin-left: calc(50% - 50vw);
+    width: 100vw;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.14;
+    mix-blend-mode: luminosity;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  }
+
