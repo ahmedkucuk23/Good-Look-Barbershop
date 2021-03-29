@@ -109,6 +109,18 @@ body{
   .section_usluge{
     text-align:center;
   }
-
+  .hero-header{
+    font-size: 4rem;
+  }
+  .text_section_header{
+    font-size: 3em;
+  }
+  .hero-para{
+    font-size: 1rem;
+  }
 }
-
+@media screen and (max-width: 400px) {
+ .video_overlay{
+    display:none;
+  }
+}
