@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap');
 
 
-.footer {
-  width: 100%;
-  height: 30vh;
+.footer_ahmed {
+  height: 0vh;
   background: #090e23;
   display: flex;
   justify-content: center;
@@ -18,11 +17,11 @@
     flex-direction: column;
 
     .title {
-      width: 100%;
+      width: 70%;
       position: relative;
       display: flex;
       align-items: center;
-      height: 50px;
+      height: 30px;
 
       .block {
         width: 0%;
@@ -36,7 +35,7 @@
       h1 {
         font-family: 'Poppins';
         color: #fff;
-        font-size: 32px;
+        font-size: 25px;
         -webkit-animation: mainFadeIn 2s forwards;
         -o-animation: mainFadeIn 2s forwards;
         animation: mainFadeIn 2s forwards;
@@ -68,12 +67,12 @@
     }
 
     .role {
-      width: 100%;
+      width: 80%;
       position: relative;
       display: flex;
       align-items: center;
-      height: 30px;
-      margin-top: -10px;
+      height: 10px;
+      margin-top: 5px;
 
       .block {
         width: 0%;
@@ -92,7 +91,7 @@
          font-weight: 400;
         font-family: 'Lato';
         color: #ffffff;
-        font-size: 12px;
+        font-size: 8px;
         text-transform: uppercase;
         letter-spacing: 5px;
       }
@@ -383,4 +382,7 @@
     margin-right:0;
     font-weight:600
   }
+}
+.last_row{
+  margin-top:50px;
 }

@@ -100,7 +100,8 @@ $bp-lg: 800px;
     $i: index($imageIds, $id);
 
     &:nth-child(#{$i}):before {
-      background-image: url($id);
+       background: image-url($id);
+           background-size: cover;
       opacity: 0.9;
       background-blend-mode: multiply;
       filter: brightness(102%) contrast(109%) saturate(49%) blur(0px) hue-rotate(0deg);
