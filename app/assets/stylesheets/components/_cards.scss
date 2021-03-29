@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap');
 
-$imageIds: '/assets/SeaSalt.jpeg', '/assets/MatGel.jpeg', '/assets/BeardOil.jpeg', '/assets/Razor.jpeg';
-
 $bp-md: 600px;
 $bp-lg: 800px;
 
@@ -96,16 +94,33 @@ $bp-lg: 800px;
     transform: skew(2deg,2deg);
   }
 
-  @each $id in $imageIds {
-    $i: index($imageIds, $id);
-
-    &:nth-child(#{$i}):before {
-       background: image-url($id);
-           background-size: cover;
+    &:nth-child(1):before {
+       background: image-url("/assets/SeaSalt.jpeg");
+      background-size: cover;
       opacity: 0.9;
       background-blend-mode: multiply;
       filter: brightness(102%) contrast(109%) saturate(49%) blur(0px) hue-rotate(0deg);
-    }
+  }
+  &:nth-child(2):before {
+       background: image-url("/assets/MatGel.jpeg");
+      background-size: cover;
+      opacity: 0.9;
+      background-blend-mode: multiply;
+      filter: brightness(102%) contrast(109%) saturate(49%) blur(0px) hue-rotate(0deg);
+  }
+  &:nth-child(3):before {
+       background: image-url("/assets/BeardOil.jpeg");
+      background-size: cover;
+      opacity: 0.9;
+      background-blend-mode: multiply;
+      filter: brightness(102%) contrast(109%) saturate(49%) blur(0px) hue-rotate(0deg);
+  }
+  &:nth-child(4):before {
+       background: image-url("/assets/Razor.jpeg");
+      background-size: cover;
+      opacity: 0.9;
+      background-blend-mode: multiply;
+      filter: brightness(102%) contrast(109%) saturate(49%) blur(0px) hue-rotate(0deg);
   }
 }
 
