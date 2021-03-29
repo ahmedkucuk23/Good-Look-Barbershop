@@ -183,7 +183,55 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.14;
-    mix-blend-mode: luminosity;
+    mix-blend-mode: lighten;
     transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  }
+
+  .ponuda_tab{
+    background-color:#ffffff;
+    padding: 10px 15px;
+    max-height: 30vh;
+    text-align:center;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: #ffffff;
+    box-shadow: 0px 0px 100px -24px grey inset;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    position: absolute;
+    margin-top: 22px;
+    right:30%;
+  }
+  .ponuda_section_header{
+    color: #101023;
+    font-family: "Rozha One", Sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: -0.5px;
+  }
+  .ponuda_section_para{
+    color: #0e1328;
+    font-family: "Lustria", Sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-style: italic;
+    line-height: 0.1em;
+    z-index: 2;
+  }
+
+  @media screen and (max-width: 500px) {
+    .ponuda_tab{
+      right:auto;
+      .button_main {
+        font-size: 0.7rem;
+      }
+    }
+    .hero_footer{
+      height:80vh;
+    }
   }
 
