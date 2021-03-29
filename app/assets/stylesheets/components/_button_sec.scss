@@ -1,0 +1,20 @@
+.button_sec{
+  font-family: "Ramabhadra", Sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1.3px;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #d32c15;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #d32c15;
+  border-radius: 1px 1px 1px 1px;
+  padding: 0.5em 1em 0.5em 1em;
+}
+.button_sec:hover{
+  background-color:#090D23;
+  fill: #ffffff;
+  color: #ffffff;
+  text-decoration:none;
+  transition: all ease 500ms;
+}
