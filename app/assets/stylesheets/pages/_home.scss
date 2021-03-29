@@ -108,7 +108,7 @@ body{
   margin-left: calc(50% - 50vw);
   width: 100vw; height: 37.5vmin;
   min-height: 15em;
-  background-image: url(/assets/BannerFirst.jpg);
+  background: image-url("BannerFirst.jpg");
   background-attachment: fixed;
   background-blend-mode: multiply;
   filter: brightness( 102% ) contrast( 109% ) saturate( 1% ) blur( 2.6px ) hue-rotate( 0deg );
