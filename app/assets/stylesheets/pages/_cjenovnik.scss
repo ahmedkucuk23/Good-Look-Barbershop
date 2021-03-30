@@ -1,0 +1,37 @@
+.main_banner{
+  background: image-url( "MainBanner.png" );
+  height:50vh;
+  position: relative;
+  background-size:cover;
+}
+.main_banner_elements{
+  position: absolute;
+  bottom:5px;
+}
+.banner_header{
+  color: #ffffff;
+  font-family: "Rozha One", Sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1em;
+  letter-spacing: -1px;
+  text-shadow: 0px 0px 10px black;
+}
+
+@media screen and (max-width: 500px) {
+  .main_banner{
+    height:30vh;
+  }
+  .main_banner_elements{
+    text-align: center;
+    position: relative;
+    padding-top:100px;
+  }
+  .section_usluge {
+    margin-top: 80px;
+  }
+
+}

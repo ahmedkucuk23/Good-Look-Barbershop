@@ -100,10 +100,6 @@
   }
 }
 
-
-
-
-
 @keyframes mainBlock {
   0% {
     width: 0%;
@@ -192,8 +188,6 @@
     opacity: 0.5;
   }
 }
-
-
 
 @keyframes top {
   0% {
@@ -312,7 +306,6 @@
   margin-bottom: 34px;
 }
 
-
 .social-icons
 {
   padding-left:0;
@@ -345,7 +338,8 @@
   border-radius:100%;
   -webkit-transition:all .2s linear;
   -o-transition:all .2s linear;
-  transition:all .2s linear
+  transition:all .2s linear;
+  target:blank;
 }
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {
