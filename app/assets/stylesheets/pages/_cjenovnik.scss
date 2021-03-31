@@ -20,7 +20,138 @@
   letter-spacing: -1px;
   text-shadow: 0px 0px 10px black;
 }
+.proizvodi_main_image{
+  background: image-url( "DapperMatt.jpeg" );
+  height:100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.56;
+  filter: brightness( 123% ) contrast( 121% ) saturate( 0% ) blur( 0px ) hue-rotate(0deg);
+  mix-blend-mode: luminosity;
+}
+.proizvodi_section_para{
+  color: #ffffff;
+  font-family: "Lusitana", Sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-style: italic;
+  line-height: 1.5em;
+  letter-spacing: 0.3px;
+  z-index: 2;
+}
+.proizvodi_section_h{
+  color: #ffffff;
+  font-family: "Rozha One", Sans-serif;
+  font-size: 3.5rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1em;
+  letter-spacing: -0.5px;
+  margin-bottom:0px;
+}
+.proizvodi_section_cijena{
+  color: #ffffff;
+  font-family: "Rozha One", Sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1em;
+}
+.proizvodi_section_desc{
+  color: #ffffff;
+  font-family: "Lusitana", Sans-serif;
+  font-size: 1.2rem;
+  font-weight: 100;
+  font-style: normal;
+  line-height: 1.5em;
+  z-index: 2;
+}
+.proizvodi_list{
+  font-family: "Lusitana", Sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-decoration: none;
+  line-height: 1.5em;
+  color:#fff;
+  margin-left:10px;
+}
+.check_icon{
+  color: #d32c15;
+  font-size: 20px;
+  padding-right: 15px;
+}
+ul{
+  list-style:none;
+  padding-left:0;
+}
+.sec_image_white{
+  background-color: #fff;
+}
+.proizvodi_sec_image{
+  background: image-url( "ColoredOil.png" );
+  height:95%;
+  width:110%;
+  opacity: 1;
+  border-style: solid;
+  border-width: 3px 3px 3px 0px;
+  border-color: #0d1326;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 3% 0% 0% -9%;
+}
+.proizvodi_sec_image_2{
+  background: image-url( "ColoredGel.png" );
+  height:95%;
+  width:110%;
+  opacity: 1;
+  border-style: solid;
+  border-width: 3px 3px 3px 0px;
+  border-color: #0d1326;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 3% 0% 0% -9%;
+}
+.topic_hr{
+  float:left;
+}
+.sec_image{
+  margin: 5% 20% 0% 0%;
+}
 
+@media screen and (max-width: 800px) {
+  .proizvodi_sec_image{
+    height:70vh;
+  }
+  .proizvodi_sec_image_2{
+    height:70vh;
+  }
+  .sec_image_white{
+    width:90%;
+  }
+  .proizvodi_lines{
+    margin:0% 0% 0% 0% ;
+    text-align:center;
+  }
+  .proizvodi_topic{
+    text-align:center;
+  }
+  .topic_hr{
+    float:none;
+  }
+  .sec_image{
+    margin: 0% 0% 0% 0%;
+  }
+
+}
 @media screen and (max-width: 500px) {
   .main_banner{
     height:30vh;
@@ -32,6 +163,11 @@
   }
   .section_usluge {
     margin-top: 80px;
+  }
+  .proizvodi_main_image{
+    height:40vh;
+    margin-bottom:30px;
+    width:100%;
   }
 
 }
