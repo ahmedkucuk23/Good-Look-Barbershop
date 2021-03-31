@@ -1,0 +1,12 @@
+.mapaicon{
+  font-size: 41px;
+  color:#ffffff;
+}
+@media screen and (max-width: 500px) {
+  .info{
+    text-align: center;
+  }
+  .mapaicon{
+    margin-top:20px;
+  }
+}
