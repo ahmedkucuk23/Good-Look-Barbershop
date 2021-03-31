@@ -1,0 +1,11 @@
+.pic{
+  width: 100%;
+  margin: 15px 0 ;
+  height: 41.2vh;
+  object-fit: cover;
+}
+@media screen and (max-width: 600px){
+  .pic{
+    height:50vh;
+  }
+}
