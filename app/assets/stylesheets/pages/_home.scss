@@ -108,7 +108,7 @@ body{
   margin-left: calc(50% - 50vw);
   width: 100vw; height: 37.5vmin;
   min-height: 15em;
-  background: image-url("BannerFirst.jpg");
+  background: image-url("BannerFirst.webp");
   background-attachment: fixed;
   background-blend-mode: multiply;
   filter: brightness( 102% ) contrast( 109% ) saturate( 1% ) blur( 2.6px ) hue-rotate( 0deg );
@@ -175,7 +175,7 @@ body{
   }
 
   .hero_footer{
-    background: image-url( "backgroundfooter.jpeg" );
+    background: image-url( "backgroundfooter.webp" );
     height:80vh;
     margin-left: calc(50% - 50vw);
     width: 100vw;

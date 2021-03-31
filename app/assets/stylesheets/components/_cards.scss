@@ -26,28 +26,28 @@ $bp-lg: 800px;
   }
 }
 .card:nth-child(1):before {
-  background: image-url("SeaSalt.jpeg");
+  background: image-url("SeaSalt.webp");
   background-size: cover;
   opacity: 0.9;
   background-blend-mode: multiply;
   filter: brightness(102%) contrast(109%) saturate(49%) blur(0px) hue-rotate(0deg);
 }
 .card:nth-child(2):before {
-  background: image-url("MatGel.jpeg");
+  background: image-url("MatGel.webp");
   background-size: cover;
   opacity: 0.9;
   background-blend-mode: multiply;
   filter: brightness(102%) contrast(109%) saturate(49%) blur(0px) hue-rotate(0deg);
 }
 .card:nth-child(3):before {
-  background: image-url("BeardOil.jpeg");
+  background: image-url("BeardOil.webp");
   background-size: cover;
   opacity: 0.9;
   background-blend-mode: multiply;
   filter: brightness(102%) contrast(109%) saturate(49%) blur(0px) hue-rotate(0deg);
 }
 .card:nth-child(4):before {
-  background: image-url("Razor.jpeg");
+  background: image-url("Razor.webp");
   background-size: cover;
   opacity: 0.9;
   background-blend-mode: multiply;

@@ -2,11 +2,21 @@
   font-size: 41px;
   color:#ffffff;
 }
+.info{
+  text-align: right;
+}
+.kontakt_hr{
+  float:right;
+}
 @media screen and (max-width: 500px) {
   .info{
     text-align: center;
   }
   .mapaicon{
     margin-top:20px;
+  }
+  .kontakt_hr{
+    float:none;
+    margin-bottom:0;
   }
 }
