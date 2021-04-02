@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get '/usluge',    to: 'pages#usluge'
   get '/cjenovnik', to: 'pages#cjenovnik'
   get '/kontakt',   to: 'pages#kontakt'
+  get '/rezervacija', to: 'pages#rezervacija'
 end

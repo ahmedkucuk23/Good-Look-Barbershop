@@ -11,4 +11,7 @@ class PagesController < ApplicationController
 
   def kontakt
   end
+
+  def rezervacija
+  end
 end
