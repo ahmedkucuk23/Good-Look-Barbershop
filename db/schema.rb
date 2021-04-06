@@ -64,22 +64,6 @@ ActiveRecord::Schema.define(version: 2021_04_06_140555) do
     t.index ["reset_password_token"], name: "index_alchemy_users_on_reset_password_token", unique: true
   end
 
-  create_table "phrasing_phrase_versions", force: :cascade do |t|
-    t.integer "phrasing_phrase_id"
-    t.text "value"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.index ["phrasing_phrase_id"], name: "index_phrasing_phrase_versions_on_phrasing_phrase_id"
-  end
-
-  create_table "phrasing_phrases", force: :cascade do |t|
-    t.string "locale"
-    t.string "key"
-    t.text "value"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "spina_accounts", force: :cascade do |t|
     t.string "name"
     t.string "address"
