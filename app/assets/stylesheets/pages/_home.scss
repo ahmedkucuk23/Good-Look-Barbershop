@@ -108,8 +108,11 @@ body{
   margin-left: calc(50% - 50vw);
   width: 100vw; height: 37.5vmin;
   min-height: 15em;
-  background: image-url("BannerFirst.webp");
+  background: image-url("4.webp");
   background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
   background-blend-mode: multiply;
   filter: brightness( 102% ) contrast( 109% ) saturate( 1% ) blur( 2.6px ) hue-rotate( 0deg );
   opacity: 0.14;
@@ -221,6 +224,9 @@ body{
     line-height: 0.1em;
     z-index: 2;
   }
+  .image_ponuda{
+    width:700px;
+  }
 
   @media screen and (max-width: 500px) {
     .ponuda_tab{
@@ -232,6 +238,9 @@ body{
     .hero_footer{
       height:80vh;
     }
+     .image_ponuda{
+    width:100%;
+  }
   }
     @media screen and (min-width: 800px) {
     .ponuda_tab{

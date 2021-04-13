@@ -95,7 +95,7 @@ ul{
   background-color: #fff;
 }
 .proizvodi_sec_image{
-  background: image-url( "ColoredOil.webp" );
+  background: image-url( "19.webp" );
   height:95%;
   width:110%;
   opacity: 1;
@@ -108,7 +108,7 @@ ul{
   margin: 3% 0% 0% -9%;
 }
 .proizvodi_sec_image_2{
-  background: image-url( "ColoredGel.webp" );
+  background: image-url( "20.webp" );
   height:95%;
   width:110%;
   opacity: 1;
@@ -130,9 +130,16 @@ ul{
 @media screen and (max-width: 800px) {
   .proizvodi_sec_image{
     height:70vh;
+    margin:0;
+    width:100%;
+  }
+  .sec_image_white{
+    background-color: transparent;
   }
   .proizvodi_sec_image_2{
     height:70vh;
+    margin:0;
+    width:100%;
   }
   .sec_image_white{
     width:90%;
@@ -170,4 +177,7 @@ ul{
     width:100%;
   }
 
+}
+.p_zadnji{
+  margin-bottom:100px;
 }
