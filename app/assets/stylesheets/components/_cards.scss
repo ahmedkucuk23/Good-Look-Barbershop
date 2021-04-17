@@ -26,7 +26,7 @@ $bp-lg: 800px;
   }
 }
 .card:nth-child(1):before {
-  background: image-url("SeaSalt.webp");
+  background: image-url("salt.webp");
   background-size: cover;
   background-position: center center;
   opacity: 0.9;
@@ -34,7 +34,7 @@ $bp-lg: 800px;
   filter: brightness(102%) contrast(109%) saturate(49%) blur(0px) hue-rotate(0deg);
 }
 .card:nth-child(2):before {
-  background: image-url("MatGel.webp");
+  background: image-url("web.webp");
   background-size: cover;
   background-position: center center;
   opacity: 0.9;

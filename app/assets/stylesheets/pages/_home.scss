@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 // Specific CSS for your home-page
 body{
   background-color:#090e23;
@@ -18,6 +19,7 @@ body{
 .hero-para{
   color: #ffffff;
   font-family: "Lusitana", Sans-serif;
+  //font-family: 'EB Garamond', serif;
   font-size: 1.2rem;
   font-weight: 100;
   line-height: 1.5em;
@@ -159,7 +161,7 @@ body{
     font-size: 4rem;
   }
   .text_section_header{
-    font-size: 3em;
+    font-size: 2.8em;
   }
   .hero-para{
     font-size: 1rem;
@@ -236,7 +238,7 @@ body{
       }
     }
     .hero_footer{
-      height:80vh;
+      height:60vh;
     }
      .image_ponuda{
     width:100%;
