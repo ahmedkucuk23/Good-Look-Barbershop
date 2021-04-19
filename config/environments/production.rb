@@ -10,8 +10,6 @@ Rails.application.configure do
   # Rake tasks automatically ignore this option for performance.
   config.eager_load = true
 
-  #config.force_ssl = true
-  config.force_ssl = false
   # Full error reports are disabled and caching is turned on.
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = true
@@ -48,6 +46,7 @@ Rails.application.configure do
   # Use the lowest log level to ensure availability of diagnostic information
   # when problems arise.
   config.log_level = :debug
+  config.serve_static_assets = true
 
   # Prepend all log lines with the following tags.
   config.log_tags = [ :request_id ]
