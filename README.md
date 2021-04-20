@@ -1,4 +1,4 @@
-Link: www.goodlook.ba /<br>
+Link: https://goodlook.ba <br>
 My First page I made for a local barbershop. <br>
 Added Third-Party online booking system.<br>
 And designed everything from scratch.<br>
