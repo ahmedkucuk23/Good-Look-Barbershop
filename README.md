@@ -1,4 +1,4 @@
-Link: https://goodlookbarbeshop.herokuapp.com/<br>
+Link: www.goodlook.ba /<br>
 My First page I made for a local barbershop. <br>
 Added Third-Party online booking system.<br>
 And designed everything from scratch.<br>
