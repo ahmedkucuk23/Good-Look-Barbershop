@@ -17,6 +17,7 @@ $bp-lg: 800px;
   font-family: "Lusitana", Sans-serif;
   margin-top:50px;
 
+
   @media (min-width: $bp-md) {
     grid-template-columns: repeat(2, 1fr);
   }

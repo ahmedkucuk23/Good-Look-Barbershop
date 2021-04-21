@@ -254,3 +254,187 @@ textarea {
   }
 
 }
+.slider{
+  text-align:center;
+
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  label {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: solid 2px #ddd;
+    border-radius: 999px;
+    background-color: transparent;
+    margin: 55vh 6px 0 6px;
+    z-index: 2;
+    cursor: pointer;
+    transition-duration: .4s;
+  }
+
+  input:checked + label{
+    background-color: white;
+  }
+
+  input:focus + label{
+    box-shadow: 0 0 0 2px teal, 0 0 18px white;
+  }
+
+  .slide {
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: translateX(-100%);
+    transition-duration: .4s;
+    opacity: 1;
+  }
+
+  input:checked ~ .slide {
+    transform: translateX(100%);
+  }
+
+  input:checked + label + .slide {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .bg1{
+    background-image: url(dapper1.webp);
+    background-size:40%;
+    background-color:white;
+    margin-top:40px;
+  }
+  .bg2{
+    background-image: url(dapper2.webp);
+    background-size:40%;
+    background-color:white;
+    margin-top:40px;
+  }
+  .bg3{
+   background-image: url(dapper3.webp);
+   background-size:40%;
+    background-color:white;
+    margin-top:40px;
+  }
+  .bg4{
+    background-image: url(dapper4.webp);
+    background-size:40%;
+    background-color:white;
+    margin-top:40px;
+  }
+  .bg5{
+    background-image: url(dapper5.webp);
+    background-size:40%;
+    background-color:white;
+    margin-top:40px;
+  }
+  .bg6{
+    background-image: url(dapper6.webp);
+    background-size:40%;
+    background-color:white;
+    margin-top:40px;
+  }
+  .bg7{
+    background-image: url(dapper7.webp);
+    background-size:40%;
+    background-color:white;
+    margin-top:40px;
+  }
+  .bg8{
+    background-image: url(dapper8.webp);
+    background-size:40%;
+    background-color:white;
+    margin-top:40px;
+  }
+  .bg9{
+    background-image: url(tigi1.webp);
+    background-size:40%;
+    background-color:white;
+    margin-top:40px;
+  }
+  .bg10{
+    background-image: url(tigi2.webp);
+    background-size:40%;
+    background-color:white;
+    margin-top:40px;
+  }
+  .bg11{
+    background-image: url(tigi3.webp);
+    background-size:30%;
+    background-color:white;
+    margin-top:40px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .slider .bg1{
+    background-size:100%;
+  }
+  .slider .bg2{
+    background-size:100%;
+  }
+  .slider .bg3{
+   background-image: url(dapper3.webp);
+   background-size:100%;
+    background-color:white;
+    margin-top:40px;
+  }
+  .slider .bg4{
+    background-image: url(dapper4.webp);
+    background-size:100%;
+    background-color:white;
+    margin-top:40px;
+  }
+  .slider .bg5{
+    background-image: url(dapper5.webp);
+    background-size:100%;
+    background-color:white;
+    margin-top:40px;
+  }
+  .slider .bg6{
+    background-image: url(dapper6.webp);
+    background-size:100%;
+    background-color:white;
+    margin-top:40px;
+  }
+  .slider .bg7{
+    background-image: url(dapper7.webp);
+    background-size:100%;
+    background-color:white;
+    margin-top:40px;
+  }
+  .slider .bg8{
+    background-image: url(dapper8.webp);
+    background-size:100%;
+    background-color:white;
+    margin-top:40px;
+  }
+  .slider .bg9{
+    background-image: url(tigi1.webp);
+    background-size:100%;
+    background-color:white;
+    margin-top:40px;
+  }
+  .slider .bg10{
+    background-image: url(tigi2.webp);
+    background-size:100%;
+    background-color:white;
+    margin-top:40px;
+  }
+  .slider .bg11{
+    background-image: url(tigi3.webp);
+    background-size:80%;
+    background-color:white;
+    margin-top:40px;
+  }
+}
