@@ -7,8 +7,31 @@
     <hr style="background-color: red; width: 50%;">
     <p class="text_section_para">Izvršite svoju rezervaciju putem telefona 033 977 311 ili ONLINE.<br> A mi ćemo vam u kratkom vremenskom periodu preko emaila odobriti rezervaciju.<br> U svakom slučaju sigurni smo da ćete naći svoj termin!  </p>
   </div>
+
 <!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/goodlook-mails/sisanje?hide_event_type_details=1&hide_gdpr_banner=1&background_color=090e23&text_color=ffffff&primary_color=ff0700" style="min-width:90%;height:700px;"></div>
+<div class="calendly-inline-widget" data-url="https://calendly.com/goodlook-mails/sisanje?hide_event_type_details=1&hide_gdpr_banner=1&background_color=090e23&text_color=ffffff&primary_color=ffffff" style="min-width:320px;height:700px; margin-top: 20px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 <!-- Calendly inline widget end -->
+
 </div>
+
+<h1>Contact#new</h1>
+<p>Find me in app/views/contact/new.html.erb</p>
+ <%= form_for Contact.new do |f| %>
+    <% if flash[:error].present? %>
+        <p> flash[:error]</p>
+    <% end %>
+    <%= f.label :name %> <br>
+    <%= f.text_field :name, required: true %>
+
+    <br>
+    <%= f.label :email %> <br>
+    <%= f.text_field :email, required: true %>
+
+    <br>
+    <%= f.label :message %> <br>
+    <%= f.text_area :message, as: :text %>
+
+
+    <%= f.submit 'Send Message', class: "button" %>
+  <% end %>
