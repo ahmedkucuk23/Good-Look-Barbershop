@@ -277,7 +277,7 @@ textarea {
   }
 
   input:checked + label{
-    background-color: white;
+    background-color: black;
   }
 
   input:focus + label{
@@ -290,7 +290,7 @@ textarea {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 75%;
+    height: 100%;
     top: 0;
     left: 0;
     z-index: -1;
@@ -312,7 +312,6 @@ textarea {
     background: image-url("dapper1.webp");
     background-size:40%;
     background-color:white;
-    margin-top:40px;
     background-repeat: no-repeat;
     background-position: center center;
   }
@@ -320,7 +319,6 @@ textarea {
     background: image-url("dapper2.webp");
     background-size:40%;
     background-color:white;
-    margin-top:40px;
     background-repeat: no-repeat;
     background-position: center center;
   }
@@ -328,7 +326,6 @@ textarea {
    background: image-url("dapper3.webp");
    background-size:40%;
     background-color:white;
-    margin-top:40px;
     background-repeat: no-repeat;
     background-position: center center;
   }
@@ -336,7 +333,6 @@ textarea {
     background: image-url("dapper4.webp");
     background-size:40%;
     background-color:white;
-    margin-top:40px;
     background-repeat: no-repeat;
     background-position: center center;
   }
@@ -344,7 +340,6 @@ textarea {
     background: image-url("dapper5.webp");
     background-size:40%;
     background-color:white;
-    margin-top:40px;
     background-repeat: no-repeat;
     background-position: center center;
   }
@@ -352,7 +347,6 @@ textarea {
     background: image-url("dapper6.webp");
     background-size:40%;
     background-color:white;
-    margin-top:40px;
     background-repeat: no-repeat;
     background-position: center center;
   }
@@ -360,7 +354,6 @@ textarea {
     background: image-url("dapper7.webp");
     background-size:40%;
     background-color:white;
-    margin-top:40px;
     background-repeat: no-repeat;
     background-position: center center;
   }
@@ -368,7 +361,6 @@ textarea {
     background: image-url("dapper8.webp");
     background-size:40%;
     background-color:white;
-    margin-top:40px;
     background-repeat: no-repeat;
     background-position: center center;
   }
@@ -376,7 +368,6 @@ textarea {
     background: image-url("tigi1.webp");
     background-size:40%;
     background-color:white;
-    margin-top:40px;
     background-repeat: no-repeat;
     background-position: center center;
   }
@@ -384,7 +375,6 @@ textarea {
     background: image-url("tigi2.webp");
     background-size:40%;
     background-color:white;
-    margin-top:40px;
     background-repeat: no-repeat;
     background-position: center center;
   }
@@ -392,7 +382,6 @@ textarea {
     background: image-url("tigi3.webp");
     background-size:30%;
     background-color:white;
-    margin-top:40px;
     background-repeat: no-repeat;
     background-position: center center;
   }
@@ -504,7 +493,7 @@ textarea {
 }
 
 .sorta {
-  margin-top:40px;
+  margin-top:1px;
   border-top: 4px solid #b85b3f;
   border-bottom: 4px solid #b85b3f;
   text-transform: uppercase;
