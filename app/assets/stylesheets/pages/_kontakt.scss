@@ -308,8 +308,15 @@ textarea {
     opacity: 1;
   }
 
-  .bg1{
+  .bg0{
     background: image-url("dapper1.webp");
+    background-size:40%;
+    background-color:white;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .bg1{
+    background: image-url("dapper0.webp");
     background-size:40%;
     background-color:white;
     background-repeat: no-repeat;
@@ -388,6 +395,9 @@ textarea {
 }
 
 @media screen and (max-width: 600px){
+   .slider .bg0{
+    background-size:100%;
+  }
   .slider .bg1{
     background-size:100%;
   }
